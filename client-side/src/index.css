@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.small-text {
+  font-size: small;
+}
+
+.drag-drop-container {
+  border: 2px dashed #252525;
+  border-radius: 8px;
+  padding: 4px 0;
+}
+
+.drag-drop {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 100vw; */
+}
+/* label {
+  width: 350px;
+  box-sizing: border-box;
+} */
+
+.close-button {
+  border: none;
+  display: inline-block;
+  padding: 4px 4px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.topright {
+  position: absolute;
+  right: -19px;
+  top: -19px;
+}
+
+.file-btn {
+  padding: 5px 10px;
+  color: white;
+  background-color: #1b5587;
+  border: none;
+}
+
+.my-table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  /* border: 1px solid #ccc; */
+  /* display: inline-block; */
+  /* padding: 6px 12px; */
+  cursor: pointer;
+}
+
+.table-c {
+  width: 100%;
+  height: 30px;
+  table-layout: fixed;
+}
+.table-c td {
+  padding: 10px;
+}
+
+.table-height {
+  height: 500px;
+}
+
+.loader-position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
